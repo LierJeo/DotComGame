@@ -1,2 +1,3 @@
-# LearnProject
-语言学习
+# DotComGame
+Learn java.
+Read Head First Java and create project.
