@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class SimpleDotComGame {
     public static void main(String[] argc){
         int numOfGuesses = 0;
@@ -5,8 +7,11 @@ public class SimpleDotComGame {
         
         SimpleDotCom theDotCom = new SimpleDotCom();
         int radomNum = (int)(Math.random()*5);
-        int[] loactions = {radomNum, radomNum +1, radomNum + 2};
-        theDotCom.setLocationCells(loactions);
+        ArrayList<String> locations = new ArrayList<String>();
+        locations.add(Integer.toString(radomNum));
+        locations.add(Integer.toString(radomNum + 1));
+        locations.add(Integer.toString(radomNum + 2));
+        theDotCom.setLocationCells(locations);
 
         boolean isAlive = true;
         while(isAlive){
