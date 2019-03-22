@@ -36,8 +36,6 @@ public class DotCom {
                 result = "hit";
             }
         }
-
-        System.out.println(result);
         return result;
     }
 }

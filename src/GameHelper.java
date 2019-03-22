@@ -110,10 +110,7 @@ public class GameHelper{
             x++;
             System.out.println("  coord " + x + " = " + alphaCells.get(x-1));
         }
-
         return alphaCells;
-
-
     }
 
 }
